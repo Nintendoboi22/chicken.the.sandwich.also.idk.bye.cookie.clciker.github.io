@@ -1,4 +1,4 @@
-# website -> chicken.the.sandwich.also.idk.bye.cookieclciker.github.io
+:D
 <br>AHHHHHHHH
 <br>thank you ozh
 <br> I ❤ cookie clicker
