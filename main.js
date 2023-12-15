@@ -22,7 +22,7 @@ function replaceAll(find,replace,str){return str.replace(new RegExp(escapeRegExp
 function cap(str){return str.charAt(0).toUpperCase()+str.slice(1);}
 
 //=============================================================
-  alert("ALERT <br>Make sure to export your code soon, might have to change some things that will effect your save (go to options and save to file)");
+  alert("ALERT🚨🚨🚨🚨🚨Make sure to export your code soon, might have to change some things that will effect your save (go to options and save to file)");
 
 function romanize(num){
     if (isNaN(num))
