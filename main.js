@@ -21,8 +21,13 @@ function replaceAll(find,replace,str){return str.replace(new RegExp(escapeRegExp
 
 function cap(str){return str.charAt(0).toUpperCase()+str.slice(1);}
 
-//=============================================================
+/*=============================================================
+Custom
+=============================================================*/
 
+document.onkeypress = function (e) { if(e.key == "`") window.location = "https://www.classroom.google.com/h" };
+
+//=============================================================
 function romanize(num){
     if (isNaN(num))
         return NaN;
