@@ -2267,7 +2267,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
+			//if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -15973,7 +15973,7 @@ Game.Launch=function()
 		
 		Game.debugTimersOn=0;
 		Game.sesame=0;
-		Game.OpenSesame=function()
+	/*	Game.OpenSesame=function()
 		{
 			var str='';
 			str+='<div class="icon" style="position:absolute;left:-9px;top:-6px;background-position:'+(-10*48)+'px '+(-6*48)+'px;"></div>';
@@ -16007,7 +16007,7 @@ Game.Launch=function()
 			str+='<a class="option neato" '+Game.clickStr+'="Game.santaLevel=0;Game.dragonLevel=0;">Reset specials</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.MaxSpecials();">Max specials</a><br>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.lumpRefill=0;/*Date.now()-Game.getLumpRefillMax();*/">Reset refills</a>';
-			str+='<a class="option neato" '+Game.clickStr+'="Game.EditAscend();">'+(Game.DebuggingPrestige?'Exit Ascend Edit':'Ascend Edit')+'</a>';
+	/*		str+='<a class="option neato" '+Game.clickStr+'="Game.EditAscend();">'+(Game.DebuggingPrestige?'Exit Ascend Edit':'Ascend Edit')+'</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.DebugUpgradeCpS();">Debug upgrades CpS</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.seed=Game.makeSeed();">Re-seed</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.heralds=100;l(\'heraldsAmount\').textContent=Game.heralds;Game.externalDataLoaded=true;Game.recalculateGains=1;">Max heralds</a>';
@@ -16072,7 +16072,7 @@ Game.Launch=function()
 			Game.BuildAscendTree();
 			Game.OpenSesame();
 		}
-		
+	*/	
 		//experimental debugging function that cycles through every owned upgrade, turns it off and on, and lists how much each upgrade is participating to CpS
 		Game.debuggedUpgradeCpS=[];
 		Game.debuggedUpgradeCpClick=[];
