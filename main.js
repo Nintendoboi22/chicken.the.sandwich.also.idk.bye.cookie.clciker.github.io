@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -2267,7 +2267,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			//if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
+			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('Cheated cookies taste awful')();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -16045,7 +16045,7 @@ Game.Launch=function()
 			Game.sesame=1;
 			Game.Achievements['Cheated cookies taste awful'].won=1;
 		}
-		
+		*/
 		
 		Game.loadAscendCalibrator=function()
 		{
@@ -16072,7 +16072,7 @@ Game.Launch=function()
 			Game.BuildAscendTree();
 			Game.OpenSesame();
 		}
-	*/	
+		
 		//experimental debugging function that cycles through every owned upgrade, turns it off and on, and lists how much each upgrade is participating to CpS
 		Game.debuggedUpgradeCpS=[];
 		Game.debuggedUpgradeCpClick=[];
