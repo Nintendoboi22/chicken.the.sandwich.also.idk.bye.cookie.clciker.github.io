@@ -2267,7 +2267,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('Cheated cookies taste awful')();
+			if (name=='saysopensesame',name.length(name='saysopensesame') Game.Win('Cheated cookies taste awful');
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -12802,7 +12802,7 @@ Game.Launch=function()
 		new Game.Achievement('A stroke of luck',loc("Click <b>%1</b>.",loc("%1 golden cookie",LBeautify(27))),[23,6]);
 		
 		order=30200;
-		new Game.Achievement('Cheated cookies taste awful',loc("Hack in some cookies."),[10,6]);Game.last.pool='shadow';
+		new Game.Achievement('Cheated cookies taste awful',loc("Hack in some cookies. Why?"),[10,6]);Game.last.pool='shadow';
 		order=11010;
 		new Game.Achievement('Uncanny clicker',loc("Click really, really fast.")+'<q>Well I\'ll be!</q>',[12,0]);
 		
